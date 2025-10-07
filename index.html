@@ -1,0 +1,766 @@
+<!DOCTYPE html>
+<html lang="fa">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+    <!--========== BOX ICONS ==========-->
+    <link href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css" rel="stylesheet"/>
+
+    <!--========== CSS ==========-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <!--========== FAVICON ==========-->
+    <link rel="shortcut icon" href="./assets/img/NGS Menu.png" type="image/x-icon">
+
+    <!--========== Animate on Scroll Library CDN ==========-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css">
+
+
+    <title>N.G.S Menu</title>
+  </head>
+  <body dir="rtl">
+    <!--========== SCROLL TOP ==========-->
+    <a href="#" class="scrolltop" id="scroll-top">
+      <i class="bx bx-chevron-up scrolltop__icon"></i>
+    </a>
+
+    <!--========== HEADER ==========-->
+    <header class="l-header" id="header">
+      <nav class="nav bd-container">
+        <a href="#" class="nav__logo">N.G.S Menu</a>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active-link">خانه</a>
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">درباره ما</a>
+            </li>
+            <li class="nav__item">
+              <a href="#services" class="nav__link">خدمات</a>
+            </li>
+            <li class="nav__item"><a href="#menu" class="nav__link">منو</a></li>
+            <li class="nav__item">
+              <a href="#contact" class="nav__link">ارتباط با ما</a>
+            </li>
+
+            <li><i class="bx bx-moon change-theme" id="theme-button"></i></li>
+          </ul>
+        </div>
+
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="bx bx-menu"></i>
+        </div>
+      </nav>
+    </header>
+
+    <main class="l-main">
+      <!--========== HOME ==========-->
+      <section class="home" id="home">
+        <div class="home__container bd-container bd-grid">
+          <div class="home__data" data-aos="fade">
+            <h1 class="home__title">مجتمع N.G.S</h1>
+            <h2 class="home__subtitle">
+              قهوه حقیقت است!
+            </h2>
+            <a href="#menu" class="button">منو رو ببین!</a>
+          </div>
+
+          <img
+            src="./assets/img/NGS Menu.png"
+            alt=""
+            class="home__img"
+            data-aos="fade"
+          />
+        </div>
+      </section>
+
+      <!--========== ABOUT ==========-->
+      <section class="about section bd-container" id="about">
+        <div class="about__container bd-grid">
+          <div class="about__data" data-aos="fade">
+            <span class="section-subtitle about__initial">درباره ما</span>
+            <h2 class="section-title about__initial">
+              سعی ما بر بهترین‌هاست
+            </h2>
+            <p class="about__description">
+              <ul>
+                <li>برگذاری انواع سناریوهای مافیا</li>
+                <li>دورهمی D&D</li>
+                <li>بازی‌های رومیزی و فکری</li>
+                <li>همراه با سرگرمی‌های پرانرژی</li>
+              </ul>
+            </p>
+          </div>
+
+          <img src="assets/img/mafiagame.jpg" alt="" class="about__img" data-aos="fade"/>
+        </div>
+      </section>
+
+      <!--========== SERVICES ==========-->
+      <section class="services section bd-container" id="services">
+        <span class="section-subtitle" data-aos="fade">خدمات</span>
+        <h2 class="section-title" data-aos="fade">سرویس مشتری‌های دائمی</h2>
+
+        <div class="services__container bd-grid">
+
+          <div class="services__content" data-aos="fade">
+            <i class="icons fa-solid fa-scroll"></i>  
+            <h3 class="services__title">رسپی درخواستی</h3>
+            <p class="services__description">می‌تونی یه سری چیزای ترکیبی از منو سفارش بدی</p>
+          </div>
+
+          <div class="services__content" data-aos="fade">
+            <i class="icons fa-solid fa-percent"></i>
+            <h3 class="services__title">تخفیف</h3>
+            <p class="services__description">به نسبت حجم سفارش یه تخفیف رندوم مهمون ما</p>
+          </div>
+
+          <div class="services__content" data-aos="fade">
+            <i class="icons fa-solid fa-book"></i>
+            <h3 class="services__title">کتابتو عوض کن</h3>
+            <p class="services__description">می‌تونی یه کتاب از کتابخونه‌مون برداری و با کتاب خودت جایگزینش کنی</p>
+          </div>
+
+        </div>
+      </section>
+
+      <!--========== MENU ==========-->
+      <section class="section bd-container" id="menu" data-aos="fade">
+        <span class="section-subtitle">مخصوص</span>
+        <h2 class="section-title">منوی هفته</h2>
+
+        <!-- Menu Categories -->
+        <div class="menu__categories">
+          <button class="menu__category-btn active">قهوه</button>
+          <button class="menu__category-btn">نوشیدنی گرم</button>
+          <button class="menu__category-btn">میلک شیک</button>
+          <button class="menu__category-btn">غذا</button>
+          <button class="menu__category-btn">موکتل</button>
+          <button class="menu__category-btn">کیک و دسر</button>
+          <button class="menu__category-btn">چای و دمنوش</button>
+          <button class="menu__category-btn">آبمیوه</button>
+        </div>
+
+        <!-- Coffee Menu -->
+        <div class="menu__category active">
+
+          <div class="menu__content menu__content-img" style="background-image: url(assets/img/single\ espresso.jpg);">
+            <h3 class="menu__name">اسپرسو سینگل</h3>
+            <span class="menu__detail">80/20 روبوستا</span>
+            <span class="menu__preci">60,000</span>
+          </div>  
+
+          <div class="menu__content menu__content-img" style="background-image: url(assets/img/double\ espresso.jpg);">
+            <h3 class="menu__name">اسپرسو دوبل</h3>
+            <span class="menu__detail">80/20 روبوستا</span>
+            <span class="menu__preci">65,000</span>
+          </div>
+
+          <div class="menu__content menu__content-img" style="background-image: url(assets/img/Arabica\ espresso.jpg);">
+            <h3 class="menu__name">اسپرسو عربیکا</h3>
+            <span class="menu__detail">100 اندونزی</span>
+            <span class="menu__preci">75,000</span>
+          </div>
+
+          <div class="menu__content menu__content-img" style="background-image: url(assets/img/Turkish\ coffee.jpg);">
+            <h3 class="menu__name">قهوه ترک</h3>
+            <span class="menu__detail">ــــــــــــــــــــــــــــ</span>
+            <span class="menu__preci">65,000</span>
+          </div>
+
+          <div class="menu__content menu__content-img" style="background-image: url(assets/img/Espresso\ Macchiato.jpg);">
+            <h3 class="menu__name">اسپرسو ماکیاتو</h3>
+            <span class="menu__detail">اسپرسو دبل + یک شات شیر</span>
+            <span class="menu__preci">90,000</span>
+          </div>
+
+          <div class="menu__content menu__content-img" style="background-image: url(assets/img/Espresso\ Romano.jpeg);">
+            <h3 class="menu__name">اسپرسو رومانو</h3>
+            <span class="menu__detail">اسپرسو + عصاره‌ی لیمو</span>
+            <span class="menu__preci">97,000</span>
+          </div>
+
+          <div class="menu__content menu__content-img" style="background-image: url(assets/img/Americano.jpeg);">
+            <h3 class="menu__name">آمریکانو</h3>
+            <span class="menu__detail">اسپرسو لانگو + آب</span>
+            <span class="menu__preci">75,000</span>
+          </div>
+
+          <div class="menu__content menu__content-img" style="background-image: url(assets/img/Turkano.jpeg);">
+            <h3 class="menu__name">ترکانو</h3>
+            <span class="menu__detail">رسپی باریستا</span>
+            <span class="menu__preci">85,000</span>
+          </div>
+
+          <div class="menu__content menu__content-img" style="background-image: url(assets/img/France.jpeg);">
+            <h3 class="menu__name">فرانسه</h3>
+            <span class="menu__detail">ــــــــــــــــــــــــــــ</span>
+            <span class="menu__preci">90,000</span>
+          </div>
+
+          <div class="menu__content menu__content-img" style="background-image: url(assets/img/Chemex\ Coffee.jpeg);">
+            <h3 class="menu__name">کمکس</h3>
+            <span class="menu__detail">ــــــــــــــــــــــــــــ</span>
+            <span class="menu__preci">108,000</span>
+          </div>
+
+          <div class="menu__content menu__content-img" style="background-image: url(assets/img/chemex.jpeg);">
+            <h3 class="menu__name">قهوه دمی</h3>
+            <span class="menu__detail">ــــــــــــــــــــــــــــ</span>
+            <span class="menu__preci">108,000</span>
+          </div>
+
+          <div class="menu__content menu__content-img" style="background-image: url(assets/img/coffee\ latte\ cup.jpeg);">
+            <h3 class="menu__name">لاته</h3>
+            <span class="menu__detail">ــــــــــــــــــــــــــــ</span>
+            <span class="menu__preci">98,000</span>
+          </div>
+
+          <div class="menu__content menu__content-img" style="background-image: url(assets/img/Cortado.jpeg);">
+            <h3 class="menu__name">کورتادو</h3>
+            <span class="menu__detail">اسپرسو و شیر یک به یک + طعم دلخواه</span>
+            <span class="menu__preci">114,000</span>
+          </div>
+
+          <div class="menu__content menu__content-img" style="background-image: url(assets/img/Cappuccino.jpeg);">
+            <h3 class="menu__name">کاپوچینو</h3>
+            <span class="menu__detail">اسپرسو + فوم شیر</span>
+            <span class="menu__preci">92,000</span>
+          </div>
+
+          <div class="menu__content menu__content-img" style="background-image: url(assets/img/Nescafe.jpeg);">
+            <h3 class="menu__name">نسکافه</h3>
+            <span class="menu__detail">نسکافه گلد + طعم دلخواه</span>
+            <span class="menu__preci">89,000</span>
+          </div>
+
+          <div class="menu__content menu__content-img" style="background-image: url(assets/img/Caffeine\ Plus.jpeg);">
+            <h3 class="menu__name">کافئین پلاس</h3>
+            <span class="menu__detail">ــــــــــــــــــــــــــــ</span>
+            <span class="menu__preci">107,000</span>
+          </div>
+
+          <div class="menu__content menu__content-img" style="background-image: url(assets/img/Mocha.jpeg);">
+            <h3 class="menu__name">موکا</h3>
+            <span class="menu__detail">قهوه + شیر + شکلات</span>
+            <span class="menu__preci">95,000</span>
+          </div>
+
+          <div class="menu__content menu__content-img" style="background-image: url(assets/img/Caramel\ Macchiato.jpeg);">
+            <h3 class="menu__name">کارامل ماکیاتو</h3>
+            <span class="menu__detail">قهوه + شیر + کارامل</span>
+            <span class="menu__preci">95,000</span>
+          </div>
+
+          <div class="menu__content menu__content-img" style="background-image: url(assets/img/Affogato.jpeg);">
+            <h3 class="menu__name">آفوگاتو</h3>
+            <span class="menu__detail">بستنی + اسپرسو دبل</span>
+            <span class="menu__preci">110,000</span>
+          </div>
+
+          <div class="menu__content menu__content-img" style="background-image: url(assets/img/Flat\ White.jpeg);">
+            <h3 class="menu__name">فلت وایت</h3>
+            <span class="menu__detail">شیر و قهوه دو به یک</span>
+            <span class="menu__preci">90,000</span>
+          </div>
+
+        </div>
+
+        <!-- Hot Drink Menu -->
+        <div class="menu__category">
+
+          <div class="menu__content menu__content-img" style="background-image: url(assets/img/Hot\ chocolate.jpeg);">
+            <h3 class="menu__name">هات چاکلت</h3>
+            <span class="menu__detail">ــــــــــــــــــــــــــــ</span>
+            <span class="menu__preci">85,000</span>
+          </div>
+
+          <div class="menu__content menu__content-img" style="background-image: url(assets/img/White\ chocolate.jpeg);">
+            <h3 class="menu__name">وایت چاکلت</h3>
+            <span class="menu__detail">ــــــــــــــــــــــــــــ</span>
+            <span class="menu__preci">95,000</span>
+          </div>
+
+          <div class="menu__content menu__content-img" style="background-image: url(assets/img/Pink\ Chocolate.jpeg);">
+            <h3 class="menu__name">پینک چاکلت</h3>
+            <span class="menu__detail">شکلات توت‌فرنگی</span>
+            <span class="menu__preci">95,000</span>
+          </div>
+
+          <div class="menu__content menu__content-img" style="background-image: url(assets/img/Hot\ hazelnut\ drink.jpeg);">
+            <h3 class="menu__name">هات فندق</h3>
+            <span class="menu__detail">ــــــــــــــــــــــــــــ</span>
+            <span class="menu__preci">105,000</span>
+          </div>
+
+          <div class="menu__content menu__content-img" style="background-image: url(assets/img/Masala.jpeg);">
+            <h3 class="menu__name">ماسالا</h3>
+            <span class="menu__detail">ــــــــــــــــــــــــــــ</span>
+            <span class="menu__preci">85,000</span>
+          </div>
+
+          <div class="menu__content menu__content-img" style="background-image: url(assets/img/Honey\ Masala.jpeg);">
+            <h3 class="menu__name">ماسالا عسلی</h3>
+            <span class="menu__detail">ــــــــــــــــــــــــــــ</span>
+            <span class="menu__preci">105,000</span>
+          </div>
+
+          <div class="menu__content menu__content-img" style="background-image: url(assets/img/Chocolate\ Masala.jpeg);">
+            <h3 class="menu__name">ماسالا شکلاتی</h3>
+            <span class="menu__detail">ــــــــــــــــــــــــــــ</span>
+            <span class="menu__preci">95,000</span>
+          </div>
+
+        </div>
+
+        <!-- MilkShake Menu -->
+        <div class="menu__category">
+
+          <div class="menu__content menu__content-img" style="background-image: url(assets/img/Chocolate\ shake.jpeg);">
+            <h3 class="menu__name">شیک شکلات</h3>
+            <span class="menu__detail">ــــــــــــــــــــــــــــ</span>
+            <span class="menu__preci">98,000</span>
+          </div>
+
+          <div class="menu__content menu__content-img" style="background-image: url(assets/img/Vanilla\ shake.jpeg);">
+            <h3 class="menu__name">شیک وانیل</h3>
+            <span class="menu__detail">ــــــــــــــــــــــــــــ</span>
+            <span class="menu__preci">98,000</span>
+          </div>
+
+          <div class="menu__content menu__content-img" style="background-image: url(assets/img/Caramel\ shake.jpeg);">
+            <h3 class="menu__name">شیک کارامل</h3>
+            <span class="menu__detail">ــــــــــــــــــــــــــــ</span>
+            <span class="menu__preci">110,000</span>
+          </div>
+
+          <div class="menu__content menu__content-img" style="background-image: url(assets/img/Strawberry\ shake.jpeg);">
+            <h3 class="menu__name">شیک توت‌فرنگی</h3>
+            <span class="menu__detail">ــــــــــــــــــــــــــــ</span>
+            <span class="menu__preci">110,000</span>
+          </div>
+
+          <div class="menu__content menu__content-img" style="background-image: url(assets/img/Biscuit\ shake.jpeg);">
+            <h3 class="menu__name">شیک بیسکویت</h3>
+            <span class="menu__detail">ــــــــــــــــــــــــــــ</span>
+            <span class="menu__preci">110,000</span>
+          </div>
+
+          <div class="menu__content menu__content-img" style="background-image: url(assets/img/Peanut\ shake.jpeg);">
+            <h3 class="menu__name">شیک بادام زمینی</h3>
+            <span class="menu__detail">ــــــــــــــــــــــــــــ</span>
+            <span class="menu__preci">125,000</span>
+          </div>
+          
+          <div class="menu__content menu__content-img" style="background-image: url(assets/img/Nutella\ shake.jpeg);">
+            <h3 class="menu__name">شیک نوتلا</h3>
+            <span class="menu__detail">ــــــــــــــــــــــــــــ</span>
+            <span class="menu__preci">140,000</span>
+          </div>
+
+          <div class="menu__content menu__content-img" style="background-image: url(assets/img/Coffee\ shake.jpeg);">
+            <h3 class="menu__name">شیک قهوه</h3>
+            <span class="menu__detail">ــــــــــــــــــــــــــــ</span>
+            <span class="menu__preci">120,000</span>
+          </div>
+
+          <div class="menu__content menu__content-img" style="background-image: url(assets/img/NGS\ shake.jpeg);">
+            <h3 class="menu__name">شیک N.G.S</h3>
+            <span class="menu__detail">مخصوص</span>
+            <span class="menu__preci">148,000</span>
+          </div>
+
+        </div>
+
+        <!-- Food Menu -->
+        <div class="menu__category">
+
+          <div class="menu__content menu__content-img" style="background-image: url(assets/img/French\ fries.jpeg);">
+            <h3 class="menu__name">سیب زمینی</h3>
+            <span class="menu__detail">ــــــــــــــــــــــــــــ</span>
+            <span class="menu__preci">95,000</span>
+          </div>
+
+          <div class="menu__content menu__content-img" style="background-image: url(assets/img/Cheesy\ french\ fries.jpeg);">
+            <h3 class="menu__name">سیب پنیری</h3>
+            <span class="menu__detail">ــــــــــــــــــــــــــــ</span>
+            <span class="menu__preci">125,000</span>
+          </div>
+
+          <div class="menu__content menu__content-img" style="background-image: url(assets/img/Special\ french\ fries.jpeg);">
+            <h3 class="menu__name">سیب ویژه</h3>
+            <span class="menu__detail">ــــــــــــــــــــــــــــ</span>
+            <span class="menu__preci">155,000</span>
+          </div>
+
+          <div class="menu__content menu__content-img" style="background-image: url(assets/img/Cheesy\ chips.jpeg)">
+            <h3 class="menu__name">چیپس پنیری</h3>
+            <span class="menu__detail">ــــــــــــــــــــــــــــ</span>
+            <span class="menu__preci">115,000</span>
+          </div>
+
+          <div class="menu__content menu__content-img" style="background-image: url(assets/img/Chicken\ Alfredo\ Pasta.jpeg);">
+            <h3 class="menu__name">پاستا چیکن آلفردو</h3>
+            <span class="menu__detail">ــــــــــــــــــــــــــــ</span>
+            <span class="menu__preci">205,000</span>
+          </div>
+
+          <div class="menu__content menu__content-img" style="background-image: url(assets/img/Special\ pasta.jpeg);">
+            <h3 class="menu__name">پاستا مخصوص</h3>
+            <span class="menu__detail">ــــــــــــــــــــــــــــ</span>
+            <span class="menu__preci">255,000</span>
+          </div>
+
+          <div class="menu__content menu__content-img" style="background-image: url(assets/img/Caesar\ salad.jpeg);">
+            <h3 class="menu__name">سالاد سزار</h3>
+            <span class="menu__detail">ــــــــــــــــــــــــــــ</span>
+            <span class="menu__preci">195,000</span>
+          </div>
+
+          <div class="menu__content menu__content-img" style="background-image: url(assets/img/Berger.jpeg);">
+            <h3 class="menu__name">برگر</h3>
+            <span class="menu__detail">ــــــــــــــــــــــــــــ</span>
+            <span class="menu__preci">115,000</span>
+          </div>
+
+          <div class="menu__content menu__content-img" style="background-image: url(assets/img/Cheeseburger.jpeg);">
+            <h3 class="menu__name">چیزبرگر مخصوص</h3>
+            <span class="menu__detail">ــــــــــــــــــــــــــــ</span>
+            <span class="menu__preci">165,000</span>
+          </div>
+
+          <div class="menu__content menu__content-img" style="background-image: url(assets/img/Cheese\ hot\ dog.jpeg);">
+            <h3 class="menu__name">هات‌داگ پنیری</h3>
+            <span class="menu__detail">ــــــــــــــــــــــــــــ</span>
+            <span class="menu__preci">125,000</span>
+          </div>
+
+          <div class="menu__content menu__content-img" style="background-image: url(assets/img/Ham\ sandwich.jpeg);">
+            <h3 class="menu__name">ژامبون</h3>
+            <span class="menu__detail">ــــــــــــــــــــــــــــ</span>
+            <span class="menu__preci">125,000</span>
+          </div>
+
+          <div class="menu__content menu__content-img" style="background-image: url(assets/img/Cheese\ snack.jpeg);">
+            <h3 class="menu__name">اسنک پنیری</h3>
+            <span class="menu__detail">ــــــــــــــــــــــــــــ</span>
+            <span class="menu__preci">65,000</span>
+          </div>
+
+          <div class="menu__content menu__content-img" style="background-image: url(assets/img/English\ plate.jpeg);">
+            <h3 class="menu__name">بشقاب انگلیسی</h3>
+            <span class="menu__detail">ژامبون گوشت + بیکن + لوبیا + قارچ + نیمرو</span>
+            <span class="menu__preci">265,000</span>
+          </div>
+
+          <div class="menu__content menu__content-img" style="background-image: url(assets/img/Iranian\ plate.jpeg);">
+            <h3 class="menu__name">بشقاب ایرانی</h3>
+            <span class="menu__detail">پنیر + کره + مربا + سبزی + گردو + چای شیرین</span>
+            <span class="menu__preci">215,000</span>
+          </div>
+
+          <div class="menu__content menu__content-img" style="background-image: url(assets/img/omelet.jpeg);">
+            <h3 class="menu__name">املت</h3>
+            <span class="menu__detail">ــــــــــــــــــــــــــــ</span>
+            <span class="menu__preci">75,000</span>
+          </div>
+
+          <div class="menu__content menu__content-img" style="background-image: url(assets/img/Sausage\ omelette.jpeg);">
+            <h3 class="menu__name">املت سوسیس</h3>
+            <span class="menu__detail">ــــــــــــــــــــــــــــ</span>
+            <span class="menu__preci">90,000</span>
+          </div>
+
+          <div class="menu__content menu__content-img" style="background-image: url(assets/img/Cheesy\ fried\ egg.jpeg);">
+            <h3 class="menu__name">املت مخصوص پنیری</h3>
+            <span class="menu__detail">املت + قارچ + سوسیس + پنیر</span>
+            <span class="menu__preci">135,000</span>
+          </div>
+
+          <div class="menu__content menu__content-img" style="background-image: url(assets/img/Qisawa\ dates.jpeg);">
+            <h3 class="menu__name">قیساوا</h3>
+            <span class="menu__detail">ــــــــــــــــــــــــــــ</span>
+            <span class="menu__preci">95,000</span>
+          </div>
+
+          <div class="menu__content menu__content-img" style="background-image: url(assets/img/Special\ Qisawa.jpeg);">
+            <h3 class="menu__name">قیساوا مخصوص</h3>
+            <span class="menu__detail">ــــــــــــــــــــــــــــ</span>
+            <span class="menu__preci">135,000</span>
+          </div>
+
+        </div>
+
+        <!-- Cocktail Menu -->
+        <div class="menu__category">
+
+          <div class="menu__content menu__content-img" style="background-image: url(assets/img/Lemonade.jpeg);">
+            <h3 class="menu__name">لیموناد</h3>
+            <span class="menu__detail">ــــــــــــــــــــــــــــ</span>
+            <span class="menu__preci">80,000</span>
+          </div>
+
+          <div class="menu__content menu__content-img" style="background-image: url(assets/img/Ginger\ Lemonade.jpeg);">
+            <h3 class="menu__name">جینجر لیموناد</h3>
+            <span class="menu__detail">ــــــــــــــــــــــــــــ</span>
+            <span class="menu__preci">98,000</span>
+          </div>
+
+          <div class="menu__content menu__content-img" style="background-image: url(assets/img/Mojito.jpeg);">
+            <h3 class="menu__name">موهیتو</h3>
+            <span class="menu__detail">ــــــــــــــــــــــــــــ</span>
+            <span class="menu__preci">90,000</span>
+          </div>
+
+          <div class="menu__content menu__content-img" style="background-image: url(assets/img/Red\ Mojito.jpeg);">
+            <h3 class="menu__name">رد موهیتو</h3>
+            <span class="menu__detail">ــــــــــــــــــــــــــــ</span>
+            <span class="menu__preci">98,000</span>
+          </div>
+
+          <div class="menu__content menu__content-img" style="background-image: url(assets/img/Pineapple\ Mojito.jpeg);">
+            <h3 class="menu__name">آناناس موهیتو</h3>
+            <span class="menu__detail">ــــــــــــــــــــــــــــ</span>
+            <span class="menu__preci">98,000</span>
+          </div>
+
+          <div class="menu__content menu__content-img" style="background-image: url(assets/img/Blue\ Hawaii.jpeg);">
+            <h3 class="menu__name">بلو هاوایی</h3>
+            <span class="menu__detail">ــــــــــــــــــــــــــــ</span>
+            <span class="menu__preci">90,000</span>
+          </div>
+
+          <div class="menu__content menu__content-img" style="background-image: url(assets/img/Cherry\ Berry\ drink.jpeg);">
+            <h3 class="menu__name">چری بری</h3>
+            <span class="menu__detail">ــــــــــــــــــــــــــــ</span>
+            <span class="menu__preci">98,000</span>
+          </div>
+
+          <div class="menu__content menu__content-img" style="background-image: url(assets/img/Flower\ drink.jpeg);">
+            <h3 class="menu__name">فلاور</h3>
+            <span class="menu__detail">ــــــــــــــــــــــــــــ</span>
+            <span class="menu__preci">108,000</span>
+          </div>
+
+          <div class="menu__content menu__content-img" style="background-image: url(assets/img/Dragon\ drink.jpeg);">
+            <h3 class="menu__name">دراگون</h3>
+            <span class="menu__detail">ــــــــــــــــــــــــــــ</span>
+            <span class="menu__preci">118,000</span>
+          </div>
+
+          <div class="menu__content menu__content-img" style="background-image: url(assets/img/ngs\ drink.jpeg);">
+            <h3 class="menu__name">مخصوص N.G.S</h3>
+            <span class="menu__detail">ــــــــــــــــــــــــــــ</span>
+            <span class="menu__preci">128,000</span>
+          </div>
+
+        </div>
+
+        <!-- Dessert Menu -->
+        <div class="menu__category">
+
+          <div class="menu__content menu__content-img" style="background-image: url(assets/img/today\ cake.jpeg);">
+            <h3 class="menu__name">کیک روز</h3>
+            <span class="menu__detail">شکلاتی / هویج / ترامیسو / چیزکیک</span>
+            <span class="menu__preci">95,000 - 145,000</span>
+          </div>
+
+          <div class="menu__content menu__content-img" style="background-image: url(assets/img/Fruit\ dessert.jpeg);">
+            <h3 class="menu__name">دسر میوه‌ای</h3>
+            <span class="menu__detail">توت‌فرنگی / نارگیلی / قهوه / موزی / طالبی</span>
+            <span class="menu__preci">95,000</span>
+          </div>
+
+          <div class="menu__content menu__content-img" style="background-image: url(assets/img/Chocolate\ dessert.jpeg);">
+            <h3 class="menu__name">دسر شکلاتی</h3>
+            <span class="menu__detail">ــــــــــــــــــــــــــــ</span>
+            <span class="menu__preci">95,000</span>
+          </div>
+
+          <div class="menu__content menu__content-img" style="background-image: url(assets/img/Pancake.jpeg);">
+            <h3 class="menu__name">پنکیک</h3>
+            <span class="menu__detail">ــــــــــــــــــــــــــــ</span>
+            <span class="menu__preci">135,000</span>
+          </div>
+
+        </div>
+
+        <!-- Tea Menu -->
+        <div class="menu__category">
+
+          <div class="menu__content menu__content-img" style="background-image: url(assets/img/tea.jpeg);">
+            <h3 class="menu__name">چای لیوانی</h3>
+            <span class="menu__detail">نبات + شکلات + بیسکوییت</span>
+            <span class="menu__preci">35,000</span>
+          </div>
+
+          <div class="menu__content menu__content-img" style="background-image: url(assets/img/Small\ tea.jpeg);">
+            <h3 class="menu__name">چای کوچک</h3>
+            <span class="menu__detail">هر ۲۰ دقیقه</span>
+            <span class="menu__preci">12,000</span>
+          </div>
+
+          <div class="menu__content menu__content-img" style="background-image: url(assets/img/Green\ tea.jpeg);">
+            <h3 class="menu__name">چای سبز</h3>
+            <span class="menu__detail">ــــــــــــــــــــــــــــ</span>
+            <span class="menu__preci">75,000</span>
+          </div>
+
+          <div class="menu__content menu__content-img" style="background-image: url(assets/img/Sour\ tea.jpeg);">
+            <h3 class="menu__name">چای ترش</h3>
+            <span class="menu__detail">ــــــــــــــــــــــــــــ</span>
+            <span class="menu__preci">85,000</span>
+          </div>
+
+          <div class="menu__content menu__content-img" style="background-image: url(assets/img/Saffron\ tea.jpeg);">
+            <h3 class="menu__name">چای زعفران</h3>
+            <span class="menu__detail">ــــــــــــــــــــــــــــ</span>
+            <span class="menu__preci">115,000</span>
+          </div>
+
+          <div class="menu__content menu__content-img" style="background-image: url(assets/img/Cardamom\ tea.jpeg);">
+            <h3 class="menu__name">چای هل</h3>
+            <span class="menu__detail">ــــــــــــــــــــــــــــ</span>
+            <span class="menu__preci">105,000</span>
+          </div>
+
+          <div class="menu__content menu__content-img" style="background-image: url(assets/img/Calming\ tea.jpeg);">
+            <h3 class="menu__name">دمنوش آرامش</h3>
+            <span class="menu__detail">ــــــــــــــــــــــــــــ</span>
+            <span class="menu__preci">95,000</span>
+          </div>
+
+          <div class="menu__content menu__content-img" style="background-image: url(assets/img/Lemon\ tea.jpeg);">
+            <h3 class="menu__name">دمنوش به لیمو</h3>
+            <span class="menu__detail">ــــــــــــــــــــــــــــ</span>
+            <span class="menu__preci">95,000</span>
+          </div>
+
+          <div class="menu__content menu__content-img" style="background-image: url(assets/img/Borage\ flower\ tea.jpeg);">
+            <h3 class="menu__name">دمنوش گل‌گاوزبان</h3>
+            <span class="menu__detail">ــــــــــــــــــــــــــــ</span>
+            <span class="menu__preci">95,000</span>
+          </div>
+
+          <div class="menu__content menu__content-img" style="background-image: url(assets/img/Spring\ Orange\ Tea.jpeg);">
+            <h3 class="menu__name">دمنوش بهارنارنج</h3>
+            <span class="menu__detail">ــــــــــــــــــــــــــــ</span>
+            <span class="menu__preci">95,000</span>
+          </div>
+
+          <div class="menu__content menu__content-img" style="background-image: url(assets/img/ngs\ tea.jpeg);">
+            <h3 class="menu__name">میکس NGS</h3>
+            <span class="menu__detail">ــــــــــــــــــــــــــــ</span>
+            <span class="menu__preci">115,000</span>
+          </div>
+
+        </div>
+
+        <!-- Juice Menu -->
+        <div class="menu__category">
+
+          <div class="menu__content menu__content-img" style="background-image: url(assets/img/Watermelon\ juice.jpeg);">
+            <h3 class="menu__name">هندوانه</h3>
+            <span class="menu__detail">ــــــــــــــــــــــــــــ</span>
+            <span class="menu__preci">75,000</span>
+          </div>
+
+          <div class="menu__content menu__content-img" style="background-image: url(assets/img/cantaloupe\ juice.jpeg);">
+            <h3 class="menu__name">طالبی</h3>
+            <span class="menu__detail">ــــــــــــــــــــــــــــ</span>
+            <span class="menu__preci">85,000</span>
+          </div>
+
+          <div class="menu__content menu__content-img" style="background-image: url(assets/img/Apple\ Juice.jpeg);">
+            <h3 class="menu__name">سیب</h3>
+            <span class="menu__detail">ــــــــــــــــــــــــــــ</span>
+            <span class="menu__preci">105,000</span>
+          </div>
+
+          <div class="menu__content menu__content-img" style="background-image: url(assets/img/Banana\ milk.jpeg);">
+            <h3 class="menu__name">شیرموز</h3>
+            <span class="menu__detail">ــــــــــــــــــــــــــــ</span>
+            <span class="menu__preci">125,000</span>
+          </div>
+
+          <div class="menu__content menu__content-img" style="background-image: url(assets/img/Orange\ juice.jpeg);">
+            <h3 class="menu__name">پرتقال</h3>
+            <span class="menu__detail">ــــــــــــــــــــــــــــ</span>
+            <span class="menu__preci">95,000</span>
+          </div>
+
+          <div class="menu__content menu__content-img" style="background-image: url(assets/img/ice\ cream\ juice.jpeg);">
+            <h3 class="menu__name">میکس با بستنی</h3>
+            <span class="menu__detail">ــــــــــــــــــــــــــــ</span>
+            <span class="menu__preci">+45,000</span>
+          </div>
+
+        </div>
+      </section>
+
+      <!--========== CONTACT US ==========-->
+      <section class="contact section bd-container" id="contact" data-aos="fade">
+        <div class="contact__container bd-grid">
+          <div class="contact__data">
+            <span class="section-subtitle contact__initial">'گپ بزنیم؟'</span>
+            <h2 class="section-title contact__initial">ارتباط با ما</h2>  
+            <p class="contact__description">می‌تونید با فالو کردن پیج اینستامون با ما همراه باشید و از ایونت‌هامون مطلع بشین</p>
+          </div>
+
+          <div class="contact__button">
+            <a href="#" class="button">بخند :)</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!--========== FOOTER ==========-->
+    <footer class="footer section bd-container" data-aos="fade">
+      <div class="footer__container bd-grid">
+        <div class="footer__content">
+          <span class="footer__logo">N.G.S</span>
+          <span class="footer__description">n.g.s.complex@</span>
+          <div>
+            <a href="https://t.me/sallivan_complex" target="_blank" class="footer__social"
+              ><i class="bx bxl-telegram"></i
+            ></a>
+            <a href="https://www.instagram.com/n.g.s.complex?igsh=NHB3Y2pvZmY2eHp1" target="_blank" class="footer__social"
+              ><i class="bx bxl-instagram"></i
+            ></a>
+          </div>
+        </div>
+
+        <div class="footer__content">
+          <h3 class="footer__title">آدرس</h3>
+          <ul>
+            <li>چهارراه باغشمال</li>
+            <li>به سمت باغشمال</li>
+            <li>روبه‌روی ساختمان میلاد</li>
+            <li>مجتمع سفیران</li>
+            <li>شماره تماس: ۰۹۳۹۸۸۷۷۲۶۸ | ۰۹۳۶۵۶۲۳۶۹۶</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__copy">
+        <p><span class="footer__copy-sign">©</span> تمام حقوق برای <a href="https://www.instagram.com/ali.saleh916?igsh=MTJtcWMya2k0N2Q2dg==" class="footer__link" target="_blank">ali.saleh916@</a> محفوظ است</p>
+        <p>اینستاگرام برنامه‌نویس و طراح منو: <a href="https://www.instagram.com/amirzaco?igsh=MXR3NHgwdmNlc3Z6MA==" class="footer__link" target="_blank">amirzaco@</a></p>
+      </div>
+    </footer>
+
+    <!--========== MAIN JS ==========-->
+    <script src="assets/js/main.js"></script>
+
+    <!--========== FONT AWESOME ==========-->
+    <script
+      src="https://kit.fontawesome.com/6f0092d662.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!--========== Animate on Scroll Library CDN ==========-->
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+
+  </body>
+</html>
